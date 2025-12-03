@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #dc3545;
+}
+
+.submit-btn {
+  align-self: flex-end;
+}
+
+.asos-wrap *:not(i) {
+  font-family: "Inter", sans-serif;
+}
+
+.asos-add-form {
+  padding: 20px 0;
+}
+
+form.asos-add-record {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 0;
+  padding: 25px;
+  max-width: 450px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.asos-form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.asos-label {
+  font-size: 14px;
+  display: block;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 5px;
+  line-height: 1em;
+}
+
+.asos-input {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 8px 12px;
+  height: auto;
+  background: #ffffff;
+  margin-bottom: 10px;
+  width: 100%;
+  display: block;
+}
+
+.asos-table {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #d9d9d9;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.asos-table tbody tr:nth-child(2n + 1) {
+  background: #f6f7f7;
+}
+
+.asos-table tr {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.asos-table tr td,
+.asos-table tr th {
+  font-size: 14px;
+  color: #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+.asos-table select {
+  width: 100% !important;
+  max-width: 180px;
+}
+
+.delete_record {
+  background: var(--red) !important;
+  border: var(--red) !important;
+  outline: none !important;
+}
+
+.asos_loader {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: none;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  margin-left: 5px;
+  position: relative;
+  top: 3px
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.asos-filters {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.asos-filters .asos-form-group {
+  max-width: 200px;
+  margin-bottom: 0px;
+}
