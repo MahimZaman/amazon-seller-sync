@@ -4,8 +4,8 @@
  * Plugin Name: Amazon Seller Order Sync
  * Description: This plugin enables you to sync your amazon order status directly from your wordpress database without having to update it to amazon.
  * Version: 1.0.0
- * Author: Noor Kamal
- * Author URI: https://www.example.com
+ * Author: Mahim Zaman
+ * Author URI: https://www.mahimzaman.com
  * Text Domain: asos
  * Domain Path: /languages
  */
